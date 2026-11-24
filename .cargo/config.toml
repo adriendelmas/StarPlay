@@ -1,0 +1,7 @@
+# Leaves cores free on the machine during compilation (override with `cargo build -j N`).
+[build]
+jobs = 32
+
+# C++ runtime (vcruntime) built into the exe: nothing for the user to install.
+[target.x86_64-pc-windows-msvc]
+rustflags = ["-C", "target-feature=+crt-static"]

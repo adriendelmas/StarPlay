@@ -1,0 +1,28 @@
+// Windows resources of the exe: app icon (id 1) and version info (name shown by "Open with").
+1 ICON "logo/StarPlay.ico"
+
+1 VERSIONINFO
+FILEVERSION     0,1,0,0
+PRODUCTVERSION  0,1,0,0
+FILEOS          0x40004
+FILETYPE        0x1
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "CompanyName",      "StarPlay"
+      VALUE "FileDescription",  "StarPlay"
+      VALUE "FileVersion",      "0.1.0"
+      VALUE "InternalName",     "starplay"
+      VALUE "LegalCopyright",   "GPL-3.0-or-later"
+      VALUE "OriginalFilename", "starplay.exe"
+      VALUE "ProductName",      "StarPlay"
+      VALUE "ProductVersion",   "0.1.0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0409, 1200
+  END
+END
